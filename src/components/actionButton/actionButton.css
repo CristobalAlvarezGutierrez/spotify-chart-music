@@ -1,0 +1,15 @@
+.btn-action-button{
+    background-color: transparent;
+    border: 1px solid hsl(var(--clr-poisonous-dart));
+    color: hsl(var(--clr-poisonous-dart));
+    padding: 0.5em 2em;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.btn-action-button:hover{
+    background-color: hsl(var(--clr-poisonous-dart));
+    color: hsl(var(--clr-dark-void));
+    box-shadow:  hsla(var(--clr-poisonous-dart), 0.5) 0px 0px 25px;
+}

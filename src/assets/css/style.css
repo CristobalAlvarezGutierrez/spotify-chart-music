@@ -1,0 +1,54 @@
+/* --------------------- */
+/* Custom properties     */
+/* --------------------- */
+
+:root{
+    /* Colors */
+        --clr-dark-void : 247, 22%, 8%;
+        --clr-poisonous-dart : 105, 92%, 67% /*#84f85eff*/
+    /* Fonts */
+}
+
+/* --------------------- */
+/* Resets                */
+/* --------------------- */
+
+/* Box sizinf */
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+/* Reset marigns */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture{
+    margin: 0;
+}
+
+/* Set up the body */
+body{
+    line-height: 1.5;
+    min-height: 100vh;
+    background-color: hsl(var(--clr-dark-void));
+    color: hsl(var(--clr-poisonous-dart));
+    font-size: 1rem;
+    /* Temporary */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Make images easier to work with */
+img,
+picture{
+    max-width: 100%;
+    display: block;
+}
